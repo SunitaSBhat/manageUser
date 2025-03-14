@@ -43,7 +43,7 @@ GET /
 GET /user/createAccount
 <p>respose will be the form to create user</p>
 
-3. Create a User
+<h3>3. Create a User</h3>
 POST /
 <p>Request Body:</p>
 <p>{
@@ -62,7 +62,7 @@ POST /
   "age": 25
 }</p>
 
-4. Retrieve All Users
+<h3>4. Retrieve All Users</h3>
 GET /users/allUser
 
 <p>Response:</p>
@@ -75,7 +75,7 @@ GET /users/allUser
   }
 ]</p>
 
-5. Retrieve a Single User
+<h3>5. Retrieve a Single User</h3>
 GET /users/singleUser
 
 <p>Response:</p>
@@ -87,7 +87,7 @@ GET /users/singleUser
   "age": 25
 }</p>
 
-6. Display the specific user form
+<h3>6. Display the specific user form</h3>
 POST /user/update
 <p>Request Body:</p>
 <p>{
@@ -95,7 +95,7 @@ POST /user/update
 }</p>
 <p>In response it will return the respective user form with details</p>
 
-7. Update a User
+<h3>7. Update a User</h3>
 POST /users/:id
 
 <p>Request Body:</p>
@@ -112,7 +112,7 @@ POST /users/:id
   "message": "User updated successfully",
 }</p>
 
-8. Delete a User
+<h3>8. Delete a User</h3>
 POST /api/users/delete
 <p>Response:</p>
 
