@@ -122,10 +122,10 @@ POST /api/users/delete
 
 
 <h2>Error Handling</h2>
-400 Bad Request: Invalid input (e.g., missing fields, invalid email format, age not a positive integer).
-404 Not Found: User ID does not exist.
+<li>400 Bad Request: Invalid input (e.g., missing fields, invalid email format, age not a positive integer).</li>
+<li>404 Not Found: User ID does not exist.</li>
 
 <h2>Sample Validation Rules</h2>
-Name must be at least 3 characters long.
-Email must be in a valid format (example@domain.com).
-Age must be a positive integer.
+<li>Name must be at least 3 characters long.</li>
+<li>Email must be in a valid format (example@domain.com).</li>
+<li>Age must be a positive integer.</li>
