@@ -41,82 +41,84 @@ response will render the form and options to access all features
 
 2. Get the form to create User
 GET /user/createAccount
-respose will be the form to create user
+<p>respose will be the form to create user</p>
 
 3. Create a User
 POST /
-Request Body:
-{
+<p>Request Body:</p>
+<p>{
   "name": "John Doe",
   "email": "john.doe@example.com",
   "age": 25
 }
+</p>
 
-Response:
-{
+<p>Response:</p>
+
+<p>{
   "id": "67d2dc2a80586e3e279e5da7",
   "name": "John Doe",
   "email": "john.doe@example.com",
   "age": 25
-}
+}</p>
 
 4. Retrieve All Users
 GET /users/allUser
 
-Response:
-[
+<p>Response:</p>
+<p>[
   {
     "id": "67d2dc2a80586e3e279e5da8",
     "name": "John Doe",
     "email": "john.doe@example.com",
     "age": 25
   }
-]
+]</p>
 
 5. Retrieve a Single User
 GET /users/singleUser
 
-Response:
-{
+<p>Response:</p>
+
+<p>{
   "id": "67d2dc2a80586e3e279e5da8",
   "name": "John Doe",
   "email": "john.doe@example.com",
   "age": 25
-}
+}</p>
 
 6. Display the specific user form
 POST /user/update
-Request Body:
-{
+<p>Request Body:</p>
+<p>{
     id:"67d2dc2a80586e3e279e5da7"
-}
-In response it will return the respective user form with details
+}</p>
+<p>In response it will return the respective user form with details</p>
 
 7. Update a User
 POST /users/:id
 
-Request Body:
+<p>Request Body:</p>
 
-{
+<p>{
   "name": "Jane Doe",
   "email": "jane.doe@example.com",
   "age": 30
-}
+}</p>
 
-Response:
+<p>Response:</p>
 
-{
+<p>{
   "message": "User updated successfully",
-}
+}</p>
 
 8. Delete a User
-
 POST /api/users/delete
-Response:
+<p>Response:</p>
 
-{
+<p>{
   "message": "User deleted successfully"
-}
+}</p>
 
 
 <h2>Error Handling</h2>
