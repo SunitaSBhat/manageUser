@@ -35,11 +35,11 @@ Proper error handling for invalid input and non-existent users.
    npm start
 
 <h2>API Endpoints</h2>
-1.  Home page containing all features
+<h3>1.  Home page containing all features</h3>
 GET /
-response will render the form and options to access all features
+<p>response will render the form and options to access all features</p>
 
-2. Get the form to create User
+<h3>2. Get the form to create User</h3>
 GET /user/createAccount
 <p>respose will be the form to create user</p>
 
