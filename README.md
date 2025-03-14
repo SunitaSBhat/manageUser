@@ -25,8 +25,8 @@ Proper error handling for invalid input and non-existent users.
 <h2>Setup Instructions</h2>
 
 1. Clone the repository:
-   git clone <repository-url>
-   cd <repository-name>
+   <li>git clone repository-url</li>
+   <li>cd repository-name</li>
 
 2. Install dependencies:
    npm install
