@@ -29,9 +29,13 @@ app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use("/public", express.static(path.join(__dirname, "public")));
+
+//this will render the main page
 app.get("/", (req, res)=>{
 return res.render('afterLogin');
 });
+
+//render the remaining page
 app.use("/user", router);
 app.listen(port, ()=>{
 console.log(`server running on ${port}`);

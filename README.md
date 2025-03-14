@@ -33,7 +33,9 @@ Proper error handling for invalid input and non-existent users.
 
 3. Start the server:
    npm start
-
+4. open command prompt and start mongodb write following 
+  <li> mongod</li>
+  <li>Make sure the mongodb connect code in main index.js is connected to correct address otherwise database cant connect and throw the error</li>
 <h2>API Endpoints</h2>
 <h3>1.  Home page containing all features</h3>
 GET /
