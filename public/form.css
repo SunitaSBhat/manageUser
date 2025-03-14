@@ -1,0 +1,39 @@
+
+body{
+    background-image: url("./background.webp");
+    background-repeat: none;
+    background-size: cover;
+}
+h1{
+    margin: 40px 553px;
+    text-align: center;
+}
+form{
+    margin: 12px 653px;
+    border: 2px solid black;
+    border-radius: 12px 12px;
+    padding: 12px 12px;
+    display: flex
+;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+input{
+    background-color: transparent;
+    margin: 12px 12px;
+    height: 27px;
+    border-radius: 12px 12px;
+}
+button{
+    border-radius: 12px 12px;
+    height: 27px;
+    background-color: lightpink;
+    font-weight: bold;
+    color: white;
+    text-decoration:none;
+    margin:12px 12px;
+    width: 100px;
+}

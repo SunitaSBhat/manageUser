@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./public/afterLogin.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div>
+    <h1>Hello Welcome</h1>
+    <p>Here you can get the all the data of the users</p>
+    <button type="submit"><a href="/user/createAccount">Create another account</a></button>
+    <button type="submit"><a href="/user/allUser">Get All User Data</a></button>
+    <form action="/user/singleUser" method="post">
+    <input type="text" name="id" placeholder="Enter the Id of the user">
+    <button type="submit">Get the specific user data</button>
+</form>
+<form action="/user/update" method="post">
+    <input type="text" name="id" placeholder="Enter the Id of the user">
+    <button type="submit">Update the data</button>
+    </form>
+    <form action="/user/delete" method="post">
+        <input type="text" name="id" placeholder="Enter the Id of the user">
+    <button type="submit">Delete the User</button>
+    </form>
+</div>
+</body>
+</html>
